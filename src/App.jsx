@@ -1,7 +1,7 @@
 import minhaImagem from "./assets/imagem-perfil.png";
 import localization from "./assets/localization.png";
 import whatsapp from "./assets/wpp-2.png";
-import lash from "./assets/lash.jpg";
+import lash from "./assets/lash.png";
 import imagemFundo from "./assets/img-perfil.jpg";
 import "./app.css"
 
@@ -41,10 +41,10 @@ export default function App() {
         </section>
 
         <section className="bg-white py-4 px-6 rounded-lg border-2 border-orange-400 flex items-center gap-4 transition-transform hover:scale-105 cursor-pointer">
-          <img className="w-11" src={lash} alt="avaliation" />
+          <img className="w-9" src={lash} alt="avaliation" />
           <a
             href="https://wa.me/c/553291996004"
-            className="text-zinc-900 font-sans text-base md:text-lg font-bold"
+            className="text-zinc-900 font-sans text-base ml-2 md:text-lg font-bold"
           >
             Catalogo de serviços
           </a>
@@ -54,7 +54,7 @@ export default function App() {
           <img className="w-9 ml-1" src={localization} alt="maps" />
           <a
             href="https://www.google.com.br/maps/place/Sheily+Maria+Pugliesi+Cavalcanti/@-21.7643505,-43.3518166,17z/data=!4m14!1m7!3m6!1s0x989b6056193487:0xdc445c0704934262!2sSheily+Maria+Pugliesi+Cavalcanti!8m2!3d-21.7643555!4d-43.3492417!16s%2Fg%2F1td5ychn!3m5!1s0x989b6056193487:0xdc445c0704934262!8m2!3d-21.7643555!4d-43.3492417!16s%2Fg%2F1td5ychn?entry=ttu&g_ep=EgoyMDI0MTEwNS4wIKXMDSoASAFQAw%3D%3D"
-            className="text-zinc-900 font-sans text-base ml-2 md:text-lg font-bold"
+            className="text-zinc-900 font-sans text-base ml-1 md:text-lg font-bold"
           >
             Me encontre aqui
           </a>
