@@ -33,7 +33,7 @@ export default function App() {
         <section className="bg-white py-4 px-6 rounded-lg border-2 border-orange-400 flex items-center gap-4 transition-transform hover:scale-105 cursor-pointer">
           <img className="w-6 ml-3" src={whatsapp} alt="whatsapp" />
           <a
-            href="https://api.whatsapp.com/send?phone=5532991996004&text=Ol%C3%A1,%20desejo%20agendar%20um%20horario!!%20Pode%20me%20passar%20mais%20informa%C3%A7%C3%B5es?"
+            href="https://api.whatsapp.com/send?phone=5532988096627&text=Ol%C3%A1,%20desejo%20agendar%20um%20horario!!%20Pode%20me%20passar%20mais%20informa%C3%A7%C3%B5es?"
             className="text-zinc-900 font-sans text-base ml-2 md:text-lg font-bold"
           >
             Agende seu horario
@@ -43,7 +43,7 @@ export default function App() {
         <section className="bg-white py-4 px-6 rounded-lg border-2 border-orange-400 flex items-center gap-4 transition-transform hover:scale-105 cursor-pointer">
           <img className="w-9" src={lash} alt="avaliation" />
           <a
-            href="https://wa.me/c/553291996004"
+            href="https://wa.me/c/553288096627"
             className="text-zinc-900 font-sans text-base ml-2 md:text-lg font-bold"
           >
             Catalogo de serviços
